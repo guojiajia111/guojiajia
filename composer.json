@@ -1,0 +1,12 @@
+{
+    "name": "guojiajia/test",
+    "description": "this is  a test",
+    "type": "library",
+    "require": {
+        "php": ">7.2",
+		"apache/thrift": "^0.13.0"
+    },
+	  "autoload": {
+		"classmap": [ "src/" ]
+	  }
+}
